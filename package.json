@@ -1,0 +1,26 @@
+{
+    "name": "file-generator",
+    "version": "1.0.0",
+    "description": "Generate js file from stubs",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "index": "node ./lib/index"
+    },
+    "keywords": [
+        "file",
+        "generator",
+        "stubs"
+    ],
+    "author": "Nikesh Makaju",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^8.3.0",
+        "typescript": "^4.4.4"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.6"
+    }
+}

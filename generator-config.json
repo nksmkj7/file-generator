@@ -1,0 +1,8 @@
+[
+    {
+        "command": "greet",
+        "arguments": ["firstName", "lastName"],
+        "alias": "g",
+        "description": "Gree the user"
+    }
+]
